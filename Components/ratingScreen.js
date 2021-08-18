@@ -77,7 +77,12 @@ export const RatingScreen = ({
             <ExcellentSvg />
           </TouchableOpacity>
         </View>
-        {error ? <Text style={styles.error}>الرجاء تحديد تصنيف</Text> : null}
+
+        {error ? (
+          <Text style={styles.error}>
+            {language.english ? "Please select a rating" : "الرجاء تحديد تصنيف"}
+          </Text>
+        ) : null}
 
         {language.english ? (
           <Button1 styling={styles.button1} text="NEXT" onPress={onPress} />

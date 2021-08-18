@@ -51,7 +51,7 @@ export default Confirmation = ({ navigation, route }) => {
         };
         if (result.status === 200) {
           setIsLoading(false);
-          navigation.popToTop("Language");
+          navigation.navigate("ThankYou");
         } else {
           null;
         }

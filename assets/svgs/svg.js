@@ -206,3 +206,21 @@ export const ExcellentSvg = () => (
     />
   </Svg>
 );
+
+export const ThankYouSvg = () => (
+  <Svg
+    width={1279 * sc}
+    height={644 * sc}
+    viewBox="0 0 1279 644"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <Path
+      d="M1279 178.124C718.799 566.475 213.913 565.733 0 508.53V0h1279v178.124z"
+      fill="#fff"
+    />
+    <Circle cx={954.5} cy={348.5} r={295.5} fill="#4FC745" />
+    <Circle cx={955} cy={348} r={266} fill="#62D559" />
+    <Circle cx={954.5} cy={348.5} r={240.5} fill="#6FEA65" />
+  </Svg>
+);

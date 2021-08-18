@@ -16,6 +16,7 @@ import Opticals from "../screens/opticals";
 import Cleanliness from "../screens/cleanliness";
 import Suggestions from "../screens/suggestion";
 import Confirmation from "../screens/confirmation";
+import ThankYou from "../screens/thank-you";
 
 const Stack = createStackNavigator();
 
@@ -43,6 +44,7 @@ export const HomeStack = () => {
             <Stack.Screen name="Cleanliness" component={Cleanliness} />
             <Stack.Screen name="Suggestions" component={Suggestions} />
             <Stack.Screen name="Confirmation" component={Confirmation} />
+            <Stack.Screen name="ThankYou" component={ThankYou} />
           </Stack.Navigator>
         </NavigationContainer>
       )}
